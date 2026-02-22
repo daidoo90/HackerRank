@@ -19,6 +19,7 @@ var b_values = new List<double>
     2,1,2
 };
 
-var result = Solution.Calculate(a_indexes, a_values, b_indexes, b_values);  // Expected 6.5
+var result = Solution.Calculate(a_indexes, a_values, b_indexes, b_values);
+// Expected: (3 * (1+2)/2) + (1 * 2) = 6.5
 
 Console.WriteLine(result);
